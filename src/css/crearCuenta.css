@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "avenir-light";
+    src: url(../font/Avenir\ Light.ttf);
+}
+@font-face {
+    font-family: "avenir-heavy";
+    src: url(../font/Avenir\ Heavy.ttf);
+}
+
+@media (min-width : 290px) and (max-width: 768px) {
+
+    body{
+    margin: 0%;
+    }
+
+    .atras{
+        position: absolute;
+        /* width: 24px;
+        height: 24px; */
+        left: 26px;
+        top: 54px;
+
+    }
+    .logo{
+        position: absolute;
+        width: 195.71px;
+        height: 86.6px;
+        /* left: 68px; */
+        top: 40px;
+    }
+    .Div-LogosCrearCuenta{
+        justify-content: center;
+        display: flex;
+    }
+
+    .Registro{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Registro p{
+        font-family: "avenir-heavy";
+        line-height: 28px;
+        color: #EC552F;
+        position: absolute;
+        width: 206px;
+        height: 24px;
+        top: 172px;
+    }
+    .Indicador{
+        position: absolute;
+        top: 95.81%;
+        bottom: 0%;
+    }
+    .Crear-Cuenta{
+        position: absolute;
+        top: 735px;
+        font-family: "avenir-light";
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 7px;
+ 
+    }
+    
+    .Crear-Cuenta p {
+        color: #215E99;
+    }
+    
+    .Crear-Cuenta a {
+        color: #EC552F;
+        text-decoration: none;
+    }
+    .Registrase-OtraCuenta{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 641px;
+        text-decoration: none;
+     }
+
+    .Crear-CuentaInput{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 327px;
+        height: 52px;
+        top: 575px;
+        text-decoration: none;
+   
+    }
+    .Boton-Crear{
+        background: #EC552F;
+        border-radius: 4px;
+        color: white;
+        width: 327px;
+        border: 0.7px solid #EC552F;
+  
+    }
+
+    .Boton-OtraCuenta{
+        color: #215E99;
+        width: 327px;
+        background-color: transparent;
+        height: 52px;
+        border: 0.7px solid #215E99;
+        border-radius: 4px;
+        font-family: "avenir-heavy";
+    }
+
+    .IngresoDatos, .IngresoDatos2, .IngresoDatos3{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        flex-direction: column;
+        top: 229px;
+    }
+
+    .IngresoDatos2{
+        top: 323px;
+    }
+    .IngresoDatos3{
+        top: 417px;
+    }
+    .IngresoDatos, .IngresoDatos2, .IngresoDatos3 p{
+        font-family: "avenir-heavy";
+        line-height: 11px;
+        color: #215E99;
+    }
+  
+    .IngresoDatos3 input {
+        width: 327px;
+        height: 38px;
+        border: 0.7px solid #C7CAD9;
+        box-sizing: border-box;
+    }
+
+    .IngresoDatos input{
+        width: 327px;
+        height: 38px;
+        border: 0.7px solid #C7CAD9;
+        box-sizing: border-box;
+        border-radius: 4px;
+
+    }
+    .IngresoDatos2 input{
+        width: 327px;
+        height: 38px;
+        border: 0.7px solid #C7CAD9;
+        box-sizing: border-box;
+        border-radius: 4px;
+
+    }
+    
+    .Aceptar-Terminos {
+        display: flex;
+        justify-content: center;
+        font-family: "avenir-heavy";
+        color: #EC552F;
+        position: absolute;
+        height: 24px;
+        top: 519px;
+
+    }
+
+    .Div-Registro{
+        display: flex;
+        justify-content: center;
+    }
+    .RegistroExitoso{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 416px;
+        background-color: #215E99;
+        color: white;
+        font-family: "avenir-heavy";
+        height: 18%;
+        border: 0.7px solid #215E99;
+        border-radius: 4px;
+      
+
+    }
+    .Crear-CuentaInput2{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 56px;
+        height: 52px;
+        text-decoration: none;
+    }
+    .botonExitoso{
+        background: #EC552F;
+        border-radius: 4px;
+        color: white;
+        border: 0.7px solid #EC552F;
+
+    }
+
+    
+
+}

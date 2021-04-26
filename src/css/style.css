@@ -1,0 +1,326 @@
+@font-face {
+    font-family: "avenir-light";
+    src: url(../font/Avenir\ Light.ttf);
+}
+@font-face {
+    font-family: "avenir-heavy";
+    src: url(../font/Avenir\ Heavy.ttf);
+}
+
+@media (min-width : 290px) and (max-width: 768px) {
+body {
+    background: #FBEFEC; 
+}
+.Div-Bienvenida{
+    display: flex;
+    justify-content: center;
+
+}
+
+.Bienvenida{
+    font-family: "avenir-heavy";
+    line-height: 28px;
+    color: #EC552F;
+    position: absolute;
+    /* left: 28px; */
+    top: 509px;
+}
+
+.Bienvenida p {
+    font-family: "avenir-light";
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.Bienvenida h2 {
+    font-size: 20px;
+    margin-top: -14px;
+}
+
+
+.Boton-IniciarSesion {
+    position: absolute;
+    top: 595px;
+    border-radius: 4px;
+    color: #ffff;
+    font-family: "avenir-light";
+    font-size: 14px;
+    line-height: 20px;
+    /* border-color: #215E99; */
+    border: 0.7px solid  #215E99;
+    /* border-left-color:  #215E99; */
+}
+
+.Boton-Inic{
+    color: #ffff;
+    width: 327px;
+    background: #215E99;
+    height: 52px;
+    border-radius: 4px;
+    border: 0.7px solid #215E99; 
+    border-left-color: #215E99;
+}
+
+
+.Boton-IniciarOtraCuenta {
+    position: absolute;
+    width: 327px;
+    height: 52px;
+    /* left: 24px; */
+    top: 661px;
+    background-color: transparent;
+    color: #EC552F ;
+    border-radius: 4px;
+    border: 0.7px solid #EC552F;
+    font-weight: 600;
+    font-family: "avenir-heavy";
+}
+.Div-Logo{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.Logo{
+    position: absolute;
+    width: 328.29px;
+    height: 212.18px;
+    top: 200.05px;
+}
+
+.Crear-Cuenta{
+    position: absolute;
+    width: 266px;
+    height: 20px;
+    /* left: 55.5px; */
+    top: 735px;
+    font-family: "avenir-light";
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 7px;
+    text-align: center;
+}
+
+.Crear-Cuenta p {
+    color: #215E99;
+}
+
+.Crear-Cuenta a {
+    color: #EC552F;
+    text-decoration: none;
+}
+
+.Indicador{
+    position: absolute;
+    /* left: -1px;
+    right: 1px; */
+    top: 95.81%;
+    bottom: 0%;
+}
+.Div-LogoDesktop, .LogoDesktop, .LogoDesktop2{
+    display: none;
+}
+.Formulario{
+    display: none;
+}
+
+}
+
+@media (min-width : 769px) and (max-width: 2150px) {
+   .Indicador, .Bienvenida, .Crear-Cuenta, .Botones-Inicio, .Div-Logo, .Logo{
+        display: none;
+    }
+    body{
+        margin: 0px;
+    }
+    
+    .Div-LogoDesktop{
+    background-color: #FBEFEC;
+    width: 50%;
+    height: 100%;
+    }
+
+    .LogoDesktop{
+    position: relative;
+    height: 77px;
+    left: 36px;
+    top: 77px;
+
+    }
+    .LogoDesktop2{
+    position: absolute;
+    left: 243px;
+    }
+
+   .Div-Contenido p {
+    position: relative;
+    left: 47px;
+    width: 350px;
+    top: 48px;
+    font-family: "avenir-heavy";
+    font-size: 29px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #215E99;
+
+    }
+    .Formulario{
+        display: flex;
+        /* position: relative; */
+        /* width: 50%; */
+        /* flex-wrap: nowrap; */
+        background-color: aqua;
+        float: right;
+        margin-top: -635px;
+        height: 100%;
+    }
+/* 
+    .BienvenidaDesktop{
+    position: absolute;
+    width: 280px;
+    height: 65px;
+    left: 916px;
+    top: 192px;
+    } */
+
+
+    .BienvenidaDesktop p{
+    position: absolute;
+    left: 916px;
+    top: 145px;
+    font-family: "avenir-heavy";
+    font-size: 24px;
+    line-height: 32px;
+    color: #EC552F;
+
+    }
+
+    .BienvenidaDesktop h2 {
+    font-family: "avenir-light";
+    position: absolute;
+    left: 916px;
+    top: 195px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #EC552F;
+
+    }
+
+    .IngresoDatos{
+        position: absolute;
+        left: 916px;
+        top: 252px;
+    }
+    
+    .IngresoDatos p{
+    font-family: "avenir-heavy";
+    color: #215E99;
+    }
+
+    .IngresoDatos2{
+    position: absolute;
+    width: 374px;
+    height: 78px;
+    left: 916px;
+    top: 374px;
+    }
+
+    .IngresoDatos2 p{
+    width: 75px;
+    font-family: "avenir-heavy";
+    line-height: 11px;
+    color: #215E99;
+    }
+
+    .Boton-IniciarSesion{
+    position: absolute;
+    width: 374px;
+    height: 52px;
+    left: 916px;
+    top: 516px;
+    background: #215E99;
+    border-radius: 4px;
+    color: white;
+    font-family: "avenir-light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    
+    }
+ 
+    .OlvidarContraseña{
+    position: absolute;
+    left: 1091px;
+    top: 469px;
+    font-family: "avenir-heavy";
+    text-align: right;
+    color: #215E99;
+    }
+
+    .IniciarOtraCuenta{
+        color: #EC552F;
+        font-weight: 600;
+        position: absolute;
+        height: 20px;
+        left: 1012px;
+        top: 608px;
+    }
+    .IngresoDatos  input {
+        width: 374px;
+        height: 52px;
+        font-family: "avenir-light";
+        font-size: 14px;
+        line-height: 20px;
+        border: 0.7px solid #C7CAD9;
+        box-sizing: border-box;
+        border-radius: 4px
+    }
+    .IngresoDatos2  input {
+        width: 374px;
+        height: 52px;
+        font-family: "avenir-light";
+        font-size: 14px;
+        line-height: 20px;
+        border: 0.7px solid #C7CAD9;
+        box-sizing: border-box;
+        border-radius: 4px
+        
+    }
+       
+
+    .Crear-CuentaDesktop{
+        position: absolute;
+        height: 20px;
+        left: 970px;
+        top: 701px;
+        font-family: "avenir-heavy";
+        font-weight: 900;
+        line-height: 7px;
+        text-align: center;
+    }
+    .Crear-CuentaDesktop p {
+        color: #215E99;
+    }
+    
+    .Crear-CuentaDesktop a {
+        color: #EC552F;
+        text-decoration: none;
+    }
+
+
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+
