@@ -6,53 +6,104 @@
     <title>Crear Cuenta</title>
     <link rel="stylesheet" href="./css/crearCuenta.css">
 </head>
+
 <body>
-    <div class="Div-LogosCrearCuenta" >
-        <a class="atras" href="index.html"><img  src="https://i.imgur.com/xWBDBxV.png" alt="atras"></a>
-        <img class="logo" src="https://i.imgur.com/J5WziKU.png" alt="logo">
-        
-    </div>
 
-    <div class="Div-Registro">
-    <div class="Registro">
-        <p>Registrarse en be Positivite</p>
-    </div>
+    <!-- Desktop  -->
 
-    <div class="IngresoDatos">
-        <p>Email/Nombre de usuario</p>
-        <input type="text" placeholder="Ingresa email o nombre de usuario"> 
-     </div> 
-     <div class="IngresoDatos2">
-        <p>Nombre</p>
-        <input type="text" placeholder="Ingresa nombre"> 
-     </div> 
-       <div class="IngresoDatos3">
-        <p>Contraseña</p>
-        <input type="text" placeholder="Ingresa Contraseña " >
-       </div>
-     <div class="Aceptar-Terminos ">
-         <input type="checkbox">Aceptar términos y condiciones
-      </div>
-      <a class="Crear-CuentaInput" href="cuentaExitosa.html"><button class="Boton-Crear">Crear una cuenta</button></a>
+    <div class="Desktop">
+        <div class="Div-LogoDesktop">
+            <img class="LogoDesktop" src="https://i.imgur.com/J5WziKU.png" alt="logo">
 
-      <a class="Registrase-OtraCuenta" href="seleccion.html"><button class="Boton-OtraCuenta">Registrase con otra cuenta</button></a>
+            <div class="Div-Contenido">
+                <p>Gestiona tus seguidores de forma segura</p>
+                <img class="LogoDesktop2" src="https://i.imgur.com/B8xYEpU.png" alt="logo">
+            </div>
+        </div>
 
-      <div class="Crear-Cuenta">
-        <p>¿Ya eres usuario?
-        <a href="index.html">Ingresar</a></p>
-    </div>
+        <div class="Div-LogosCrearCuenta">
+            <a class="atras" href="index.html"><img src="https://i.imgur.com/xWBDBxV.png" alt="atras"></a>
+            <img class="logo" src="https://i.imgur.com/J5WziKU.png" alt="logo">
 
+        </div>
 
-      <div class="Indicador">
-        <img  src="https://i.imgur.com/m7lEH9G.png" alt="Indicador">
-    </div>
+        <div class="Div-Registro">
+            <div class="Registro">
+                <p>Registrarse en be Positivite</p>
+            </div>
 
-</div>
+            <div class="IngresoDatos">
+                <p>Email/Nombre de usuario</p>
+                <input type="text" placeholder="Ingresa email o nombre de usuario" required>
+            </div>
+            <div class="IngresoDatos2">
+                <p>Nombre</p>
+                <input type="text" placeholder="Ingresa nombre" required>
+            </div>
+            <div class="IngresoDatos3">
+                <p>Contraseña</p>
+                <input type="text" placeholder="Ingresa Contraseña" required>
+            </div>
+            <div class="Aceptar-Terminos ">
+                <input class="checkbox" type="checkbox">Aceptar términos y condiciones
+            </div>
+            <a class="Crear-CuentaInput" href="iniciarSesion.html" ><button id="crearCuenta" class="Boton-Crear">Crear
+                    una cuenta</button></a>
+            <!-- Crear Sesion Desktop -->
+            <a class="Crear-CuentaInputDesktop" href="index.html" ><button id="crearCuenta" class="Boton-Crear">Crear
+                una cuenta</button></a>
 
-  
+            <a class="Registrase-OtraCuenta" id="abrirModal" href="#"><button class="Boton-OtraCuenta">Registrase con
+                    otra cuenta</button></a>
 
+            <div class="IniciarOtraCuenta">
+                <p> O registrarse con otra cuenta</p>
+                <div class="Apple">
+                    <img src="https://i.imgur.com/sdBTQMG.png" alt="">
+                </div>
+                <div class="Facebook">
+                    <img src="https://i.imgur.com/Vqo3wm8.png" alt="">
+                </div>
+                <div class="Google">
+                    <img src="https://i.imgur.com/RThGGBi.png" alt="">
+                </div>
+            </div>
 
+            <div class="Crear-Cuenta">
+                <p>¿Ya eres usuario?
+                    <a href="iniciarSesion.html">Ingresar</a>
+                </p>
+            </div>
+            <div class="Crear-CuentaDesktop1">
+                <p>¿Ya eres usuario?
+                    <a href="index.html">Ingresar</a>
+                </p>
+            </div>
+            
 
-    
+            <div class="Indicador">
+                <img src="https://i.imgur.com/m7lEH9G.png" alt="Indicador">
+            </div>
+        </div>
+
+        <!-- Modal Ingresar Otras Cuentas -->
+
+        <div class="modalOtraCuenta">
+            <div class="modal">
+                <div class="modal_Cerrar">
+                    <span>X</span>
+                    <span>Selecciona tu cuenta</span>
+                </div>
+                <div class="TipoDeCuentas">
+                    <a href=""><img src="https://i.imgur.com/sdBTQMG.png" alt="apple" />Continua con Apple ID</a>
+                    <a href=""><img src="https://i.imgur.com/Vqo3wm8.png" alt="facebook" />Continua Facebook</a>
+                    <a href=""><img src="https://i.imgur.com/RThGGBi.png" alt="Google" />Continua con Google</a>
+                </div>
+            </div>
+        </div>
+
+        <script src="./js/app.js"></script>
+
 </body>
+
 </html>

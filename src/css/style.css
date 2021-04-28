@@ -1,45 +1,47 @@
 @font-face {
     font-family: "avenir-light";
     src: url(../font/Avenir\ Light.ttf);
-}
+    }
 @font-face {
     font-family: "avenir-heavy";
     src: url(../font/Avenir\ Heavy.ttf);
-}
+    }
 
-@media (min-width : 290px) and (max-width: 768px) {
-body {
+@media (min-width : 320px) and (max-width: 768px) {
+    body {
     background: #FBEFEC; 
-}
-.Div-Bienvenida{
+    }
+
+    .Div-Bienvenida{
     display: flex;
     justify-content: center;
 
-}
+    }
 
-.Bienvenida{
+    .Bienvenida{
     font-family: "avenir-heavy";
     line-height: 28px;
     color: #EC552F;
     position: absolute;
-    /* left: 28px; */
     top: 509px;
-}
+    }
 
-.Bienvenida p {
+    .Bienvenida p {
     font-family: "avenir-light";
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-}
+    position: absolute;
+    }
 
-.Bienvenida h2 {
+    .Bienvenida h2 {
     font-size: 20px;
-    margin-top: -14px;
-}
+    margin-top: 36px;
+    margin-right: 67px;
+    }
 
 
-.Boton-IniciarSesion {
+    .Boton-IniciarSesion {
     position: absolute;
     top: 595px;
     border-radius: 4px;
@@ -47,12 +49,10 @@ body {
     font-family: "avenir-light";
     font-size: 14px;
     line-height: 20px;
-    /* border-color: #215E99; */
     border: 0.7px solid  #215E99;
-    /* border-left-color:  #215E99; */
-}
+    }
 
-.Boton-Inic{
+    .Boton-Inic{
     color: #ffff;
     width: 327px;
     background: #215E99;
@@ -60,14 +60,12 @@ body {
     border-radius: 4px;
     border: 0.7px solid #215E99; 
     border-left-color: #215E99;
-}
+    }
 
-
-.Boton-IniciarOtraCuenta {
+    .Boton-IniciarOtraCuenta {
     position: absolute;
     width: 327px;
     height: 52px;
-    /* left: 24px; */
     top: 661px;
     background-color: transparent;
     color: #EC552F ;
@@ -75,243 +73,385 @@ body {
     border: 0.7px solid #EC552F;
     font-weight: 600;
     font-family: "avenir-heavy";
-}
-.Div-Logo{
+    }
+
+    .Div-Logo{
     display: flex;
     justify-content: center;
-  
-}
 
-.Logo{
+    }
+
+    .Logo{
     position: absolute;
     width: 328.29px;
     height: 212.18px;
     top: 200.05px;
-}
+    }
 
-.Crear-Cuenta{
+    .Crear-Cuenta{
     position: absolute;
     width: 266px;
     height: 20px;
-    /* left: 55.5px; */
     top: 735px;
     font-family: "avenir-light";
     font-weight: 900;
     font-size: 14px;
     line-height: 7px;
     text-align: center;
-}
+    }
 
-.Crear-Cuenta p {
+    .Crear-Cuenta p {
     color: #215E99;
-}
+    }
 
-.Crear-Cuenta a {
+    .Crear-Cuenta a {
     color: #EC552F;
     text-decoration: none;
-}
+    }
 
-.Indicador{
+    .Indicador{
     position: absolute;
-    /* left: -1px;
-    right: 1px; */
-    top: 95.81%;
-    bottom: 0%;
-}
-.Div-LogoDesktop, .LogoDesktop, .LogoDesktop2{
+    top: calc(100% - 5px/2 + 5.5px);
+
+    }
+
+    .Div-LogoDesktop, .LogoDesktop, .LogoDesktop2, .Boton-IniciarSesionDesktop, .Boton-InicDesktop {
     display: none;
-}
-.Formulario{
+    }
+    .Formulario{
     display: none;
-}
+    }
+
+    /* Modal */
+    .modalOtraCuenta{
+    display: none;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    }
+
+    .modal {
+    background-color: white;
+    width: 100%;
+    top: 69%;
+    color: white;
+    position: relative;
+    height: 300px;
+    border-radius: 22px 22px 0px 0px;
+    }
+
+    .modal_Cerrar span {
+    display: flex;
+    position: relative;
+    flex: auto
+    }
+
+    .modal_Cerrar p{
+    display: flex;
+    flex: auto;
+    margin-top: 0px;
+ }
+
+    .TipoDeCuentas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    }
+
+    .modal_Cerrar{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #215E99;
+    font-family: "avenir-heavy";
+    font-size: 18px;
+    }
+
+    .TipoDeCuentas a {
+    text-decoration: none;
+    padding: 8px;
+    width: 213px;
+    color: #215E99;
+    text-align: center;
+    margin: 5px;
+    border: 0.7px solid #C7CAD9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: "avenir-light";
+    font-weight: 500;
+    }
 
 }
 
 @media (min-width : 769px) and (max-width: 2150px) {
-   .Indicador, .Bienvenida, .Crear-Cuenta, .Botones-Inicio, .Div-Logo, .Logo{
-        display: none;
+    .Indicador, .Bienvenida, .Crear-Cuenta, .Botones-Inicio, .Div-Logo, .Logo, .modalOtraCuenta, .TipoDeCuentas,  .Boton-IniciarOtraCuenta, .Boton-InicDesktop{
+    display: none;
     }
+
     body{
-        margin: 0px;
+    margin: 0px;
     }
-    
+
+    /* Lado Izquierdo Pantalla */
+    .Desktop {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    }
+
     .Div-LogoDesktop{
     background-color: #FBEFEC;
-    width: 50%;
-    height: 100%;
     }
 
     .LogoDesktop{
+    width: 198.11px; 
     position: relative;
-    height: 77px;
-    left: 36px;
+    left: 64px;
     top: 77px;
-
+    width: 208.11px;
+    height: 83px;
     }
+
     .LogoDesktop2{
     position: absolute;
-    left: 243px;
+    left: 81.68%;
+    right: 37.1%;
+    width: 98.96px;
+    height: 82.41px;
+    transform: rotate(-9deg);
     }
 
-   .Div-Contenido p {
+    .Div-Contenido {
+    position: absolute;
+    }
+
+    .Div-Contenido p {
     position: relative;
-    left: 47px;
-    width: 350px;
-    top: 48px;
+    left: 81px;
+    width: 460px;
+    top: 58px;
     font-family: "avenir-heavy";
-    font-size: 29px;
+    font-size: 36px;
     line-height: 120%;
     letter-spacing: 0.005em;
     color: #215E99;
-
+    font-weight: bold;
     }
+
+    /* Lado Derecho Pantalla */
     .Formulario{
-        display: flex;
-        /* position: relative; */
-        /* width: 50%; */
-        /* flex-wrap: nowrap; */
-        background-color: aqua;
-        float: right;
-        margin-top: -635px;
-        height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 34px;
+    margin-left: 20px;
     }
-/* 
-    .BienvenidaDesktop{
-    position: absolute;
-    width: 280px;
-    height: 65px;
-    left: 916px;
-    top: 192px;
-    } */
-
 
     .BienvenidaDesktop p{
-    position: absolute;
-    left: 916px;
-    top: 145px;
     font-family: "avenir-heavy";
     font-size: 24px;
     line-height: 32px;
+    margin-left: -103px;
     color: #EC552F;
-
+    margin-top: 132px;
     }
 
     .BienvenidaDesktop h2 {
     font-family: "avenir-light";
-    position: absolute;
-    left: 916px;
-    top: 195px;
-    font-weight: normal;
     font-size: 16px;
     color: #EC552F;
-
+    margin-left: -101px;
+    margin-top: -24px;
+    line-height: 24px;
+    font-weight: normal;
     }
 
     .IngresoDatos{
-        position: absolute;
-        left: 916px;
-        top: 252px;
+    position: absolute;
+    top: 197px;
+    height: 78px;
     }
-    
+
     .IngresoDatos p{
-    font-family: "avenir-heavy";
     color: #215E99;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "avenir-light";
     }
 
     .IngresoDatos2{
     position: absolute;
     width: 374px;
     height: 78px;
-    left: 916px;
-    top: 374px;
+    top: 300px;
+    font-size: 14px;
     }
 
     .IngresoDatos2 p{
-    width: 75px;
-    font-family: "avenir-heavy";
-    line-height: 11px;
     color: #215E99;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "avenir-light";
     }
 
-    .Boton-IniciarSesion{
+    .Boton-IniciarSesionDesktop{
     position: absolute;
-    width: 374px;
-    height: 52px;
-    left: 916px;
-    top: 516px;
-    background: #215E99;
-    border-radius: 4px;
+    left: 483px;
+    top: 361px;
     color: white;
-    font-family: "avenir-light";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    
     }
- 
+
+    .BtnIniciarSesion{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+
+    }
+    .BtnIniciarSesion a{
+    margin-top: 449px;
+    }
+
+    .Boton-Inic {
+    color: #ffff;
+    width: 374px;
+    background: #215E99;
+    height: 52px;
+    border-radius: 4px;
+    border: 0.7px solid #215E99;
+    border-left-color: #215E99;
+    font-family: "avenir-heavy";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    }
+
     .OlvidarContraseña{
     position: absolute;
-    left: 1091px;
-    top: 469px;
+    top: 398px;
+    font-size: 14px;
     font-family: "avenir-heavy";
+    color: #215E99;
+    font-weight: 500;
+    line-height: 20px;
     text-align: right;
+    }
+
+    .OlvidarContraseña p {
+    position: absolute;
+    left: 13px;
+    width: max-content;
+    }
+
+    .IngresoDatos input {
+    width: 374px;
+    height: 52px;
+    font-family: "avenir-light";
+    font-size: 14px;
+    line-height: 20px;
+    border: 0.7px solid #C7CAD9;
+    box-sizing: border-box;
+    border-radius: 4px
+    }
+
+    .IngresoDatos2  input {
+    width: 374px;
+    height: 52px;
+    font-family: "avenir-light";
+    font-size: 14px;
+    line-height: 20px;
+    border: 0.7px solid #C7CAD9;
+    box-sizing: border-box;
+    border-radius: 4px
+    }
+
+
+    .Crear-CuentaDesktop{
+    position: absolute;
+    height: 20px;
+    top: 663px;
+    font-family: "avenir-heavy";
+    font-weight: 900;
+    line-height: 7px;
+    text-align: center;
+    }
+
+    .Crear-CuentaDesktop p {
     color: #215E99;
     }
 
-    .IniciarOtraCuenta{
-        color: #EC552F;
-        font-weight: 600;
-        position: absolute;
-        height: 20px;
-        left: 1012px;
-        top: 608px;
-    }
-    .IngresoDatos  input {
-        width: 374px;
-        height: 52px;
-        font-family: "avenir-light";
-        font-size: 14px;
-        line-height: 20px;
-        border: 0.7px solid #C7CAD9;
-        box-sizing: border-box;
-        border-radius: 4px
-    }
-    .IngresoDatos2  input {
-        width: 374px;
-        height: 52px;
-        font-family: "avenir-light";
-        font-size: 14px;
-        line-height: 20px;
-        border: 0.7px solid #C7CAD9;
-        box-sizing: border-box;
-        border-radius: 4px
-        
-    }
-       
-
-    .Crear-CuentaDesktop{
-        position: absolute;
-        height: 20px;
-        left: 970px;
-        top: 701px;
-        font-family: "avenir-heavy";
-        font-weight: 900;
-        line-height: 7px;
-        text-align: center;
-    }
-    .Crear-CuentaDesktop p {
-        color: #215E99;
-    }
-    
     .Crear-CuentaDesktop a {
-        color: #EC552F;
-        text-decoration: none;
+    color: #EC552F;
+    text-decoration: none;
+    }
+    /* Incio Sesion con otras Cuentas */
+    .IniciarOtraCuenta{
+    color: #EC552F;
+    font-weight: 600;
+    position: absolute;
+    height: 20px;
+    top: 523px;
+    font-family: "avenir-heavy";
     }
 
+    .Apple {
+    position: absolute;
+    width: 49px;
+    height: 48px;
+    background: hsl(240deg 8% 93%);
+    border-radius: 114px;
+    }
 
+    .Facebook {
+    position: absolute;
+    width: 49px;
+    height: 48px;
+    background: hsl(240deg 8% 93%);
+    border-radius: 114px;
+    margin-left: 67px;
 
-    
+    }
+    .Google {
+    position: absolute;
+    width: 49px;
+    height: 48px;
+    background: hsl(240deg 8% 93%);
+    border-radius: 114px;
+    margin-left: 133px;
+    }
+
+    .Apple img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 11px;
+    top: 11px;
+    }
+
+    .Facebook img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 12px;
+    top: 11px;
+    }
+
+    .Google img{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 15px;
+    top: 13px
+    }
 
 
 }

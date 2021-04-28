@@ -1,201 +1,557 @@
 @font-face {
     font-family: "avenir-light";
     src: url(../font/Avenir\ Light.ttf);
-}
+    }
 @font-face {
     font-family: "avenir-heavy";
     src: url(../font/Avenir\ Heavy.ttf);
-}
+    }
 
-@media (min-width : 290px) and (max-width: 768px) {
+@media (min-width : 320px) and (max-width: 768px) {
 
     body{
     margin: 0%;
     }
 
     .atras{
-        position: absolute;
-        /* width: 24px;
-        height: 24px; */
-        left: 26px;
-        top: 54px;
+    position: absolute;
+    left: 26px;
+    top: 54px;
 
     }
     .logo{
-        position: absolute;
-        width: 195.71px;
-        height: 86.6px;
-        /* left: 68px; */
-        top: 40px;
+    position: absolute;
+    width: 195.71px;
+    height: 86.6px;
+    top: 40px;
     }
+
     .Div-LogosCrearCuenta{
-        justify-content: center;
-        display: flex;
+    justify-content: center;
+    display: flex;
     }
 
     .Registro{
-        display: flex;
-        justify-content: center;
+    display: flex;
+    justify-content: center;
     }
 
     .Registro p{
-        font-family: "avenir-heavy";
-        line-height: 28px;
-        color: #EC552F;
-        position: absolute;
-        width: 206px;
-        height: 24px;
-        top: 172px;
+    font-family: "avenir-heavy";
+    line-height: 28px;
+    color: #EC552F;
+    position: absolute;
+    width: 206px;
+    height: 24px;
+    top: 172px;
+    display: flex;
+    margin-right: 123px;
     }
+
+    .Registro h2 {
+    font-family: "avenir-heavy";
+    color: #EC552F;
+    position: absolute;
+    top: 172px;
+    font-size: 16px;
+    display: flex;
+    margin-right: 45px;
+    }
+
     .Indicador{
-        position: absolute;
-        top: 95.81%;
-        bottom: 0%;
+    position: absolute;
+    top: 95.81%;
+    bottom: 0%;
     }
+
     .Crear-Cuenta{
-        position: absolute;
-        top: 735px;
-        font-family: "avenir-light";
-        font-weight: 900;
-        font-size: 14px;
-        line-height: 7px;
- 
+    position: absolute;
+    top: 735px;
+    font-family: "avenir-light";
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 7px;
     }
-    
+
     .Crear-Cuenta p {
-        color: #215E99;
+    color: #215E99;
     }
-    
+
     .Crear-Cuenta a {
-        color: #EC552F;
-        text-decoration: none;
+    color: #EC552F;
+    text-decoration: none;
     }
+
     .Registrase-OtraCuenta{
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        top: 641px;
-        text-decoration: none;
-     }
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 641px;
+    text-decoration: none;
+    }
 
     .Crear-CuentaInput{
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        width: 327px;
-        height: 52px;
-        top: 575px;
-        text-decoration: none;
-   
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 327px;
+    height: 52px;
+    top: 575px;
+    text-decoration: none;
     }
+
     .Boton-Crear{
-        background: #EC552F;
-        border-radius: 4px;
-        color: white;
-        width: 327px;
-        border: 0.7px solid #EC552F;
-  
+    background: #EC552F;
+    border-radius: 4px;
+    color: white;
+    width: 327px;
+    border: 0.7px solid #EC552F;
     }
 
     .Boton-OtraCuenta{
-        color: #215E99;
-        width: 327px;
-        background-color: transparent;
-        height: 52px;
-        border: 0.7px solid #215E99;
-        border-radius: 4px;
-        font-family: "avenir-heavy";
+    color: #215E99;
+    width: 327px;
+    background-color: transparent;
+    height: 52px;
+    border: 0.7px solid #215E99;
+    border-radius: 4px;
+    font-family: "avenir-heavy";
     }
 
     .IngresoDatos, .IngresoDatos2, .IngresoDatos3{
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        flex-direction: column;
-        top: 229px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+    top: 229px;
     }
 
     .IngresoDatos2{
-        top: 323px;
+    top: 323px;
     }
+
     .IngresoDatos3{
-        top: 417px;
+    top: 417px;
     }
+
     .IngresoDatos, .IngresoDatos2, .IngresoDatos3 p{
-        font-family: "avenir-heavy";
-        line-height: 11px;
-        color: #215E99;
+    font-family: "avenir-heavy";
+    line-height: 11px;
+    color: #215E99;
     }
-  
+
     .IngresoDatos3 input {
-        width: 327px;
-        height: 38px;
-        border: 0.7px solid #C7CAD9;
-        box-sizing: border-box;
+    width: 327px;
+    height: 38px;
+    border: 0.7px solid #C7CAD9;
+    box-sizing: border-box;
     }
 
     .IngresoDatos input{
-        width: 327px;
-        height: 38px;
-        border: 0.7px solid #C7CAD9;
-        box-sizing: border-box;
-        border-radius: 4px;
+    width: 327px;
+    height: 38px;
+    border: 0.7px solid #C7CAD9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    }
+
+    .IngresoDatos2 input{
+    width: 327px;
+    height: 38px;
+    border: 0.7px solid #C7CAD9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    }
+
+    .Aceptar-Terminos {
+    font-family: "avenir-heavy";
+    color: #EC552F;
+    position: absolute;
+    top: 517px;
+    font-size: 12px;
+    display: flex;
+    margin-right: 127px;
+    }
+
+    .Olvidaste-Contraseña{
+    font-family: "avenir-heavy";
+    color: #215E99;
+    position: absolute;
+    top: 419px;
+    }
+
+    .Iniciar-Sesion{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 327px;
+    height: 52px;
+    top: 491px;
+    text-decoration: none;
+    }
+
+    .Registrase-OtraCuentaInic{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 556px;
+    text-decoration: none;
+    }
+
+    .Olvidaste-Contraseña p{
+    left: auto;
+    display: flex;
+    margin-left: 136px;
+    }    
+
+    .Div-Registro{
+    display: flex;
+    justify-content: center;
+    }
+
+    .RegistroExitoso{
+    display: none;
+    justify-content: center;
+    background-color: #4CA484;
+    color: white;
+    font-family: "avenir-heavy";
+    border: 0.7px solid #4CA484;
+    border-radius: 17px;
+    position: absolute;
+    width: 100%;
+    top: 748px;
+    height: 72px;
+    }
+
+    .RegistroExitoso p {
+    width: 217px;
+    display: flex;
+    text-align: -webkit-center;
+    }
+
+    .Crear-CuentaInput2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 56px;
+    height: 52px;
+    text-decoration: none;
+    }
+
+    .botonExitoso{
+    background: #EC552F;
+    border-radius: 4px;
+    color: white;
+    border: 0.7px solid #EC552F;
+    }
+
+    .checkbox {
+    width: 20px;
+    height: 20px;
+
+    }
+    /* Modal Inicio con otra cuenta*/
+    .modalOtraCuenta{
+    display: none;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    }
+
+    .modal {
+    background-color: white;
+    width: 100%;
+    top: 69%;
+    color: white;
+    position: relative;
+    height: 300px;
+    border-radius: 22px 22px 0px 0px;
+    }
+
+    .modal_Cerrar span {
+    display: flex;
+    position: relative;
+    flex: auto
+    }
+
+    .modal_Cerrar p{
+    display: flex;
+    flex: auto;
+    margin-top: 0px;
+    }
+
+    .TipoDeCuentas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    }
+
+    .modal_Cerrar{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #215E99;
+    font-family: "avenir-heavy";
+    font-size: 18px;
+    }
+
+    .TipoDeCuentas a {
+    text-decoration: none;
+    padding: 8px;
+    width: 213px;
+    color: #215E99;
+    text-align: center;
+    margin: 5px;
+    border: 0.7px solid #C7CAD9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: "avenir-light";
+    font-weight: 500;
+    }
+    .IniciarOtraCuenta, .LogoDesktop, .LogoDesktop2, .Div-Contenido, .Crear-CuentaDesktop1, .Crear-CuentaInputDesktop {
+    display: none;
+    }
+
+}
+
+@media (min-width : 769px) and (max-width: 2150px) {
+
+    .Indicador, .atras, .Registrase-OtraCuenta, .logo, .Div-LogosCrearCuenta, .modalOtraCuenta, .Crear-Cuenta, .Crear-CuentaInput {
+    display: none;
+    }
+    body{
+    margin: 0px;
+    }
+
+    /* Lado Izquierdo Pantalla */
+    .Desktop {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .Div-LogoDesktop{
+    background-color: #FBEFEC;
+    }
+
+    .LogoDesktop{
+    width: 198.11px; 
+    position: relative;
+    left: 64px;
+    top: 77px;
+    width: 208.11px;
+    height: 83px;
+    }
+
+    .LogoDesktop2{
+    position: absolute;
+    left: 81.68%;
+    right: 37.1%;
+    width: 98.96px;
+    height: 82.41px;
+    transform: rotate(-9deg);
+    }
+
+    .Div-Contenido {
+    position: absolute;
+    }
+
+    .Div-Contenido p {
+    position: relative;
+    left: 81px;
+    width: 460px;
+    top: 58px;
+    font-family: "avenir-heavy";
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #215E99;
+    font-weight: bold;
+    }
+    /* Incio Sesion con otras Cuentas */
+    .IniciarOtraCuenta{
+    color: #EC552F;
+    font-weight: 600;
+    position: absolute;
+    height: 20px;
+    top: 499px;
+    font-family: "avenir-heavy";
+    }
+
+    .Apple {
+    position: absolute;
+    width: 49px;
+    height: 48px;
+    background: hsl(240deg 8% 93%);
+    border-radius: 114px;
+    }
+
+    .Facebook {
+    position: absolute;
+    width: 49px;
+    height: 48px;
+    background: hsl(240deg 8% 93%);
+    border-radius: 114px;
+    margin-left: 67px;
+
+    }
+    .Google {
+    position: absolute;
+    width: 49px;
+    height: 48px;
+    background: hsl(240deg 8% 93%);
+    border-radius: 114px;
+    margin-left: 133px;
+
+    }
+
+    .Apple img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 11px;
+    top: 11px;
+    }
+
+    .Facebook img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 12px;
+    top: 11px;
+    }
+
+    .Google img{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 15px;
+    top: 13px
+    }
+    /* Crear Cuenta */
+    .Crear-CuentaDesktop1{
+    position: absolute;
+    height: 20px;
+    top: 641px;
+    font-family: "avenir-heavy";
+    font-weight: 900;
+    line-height: 7px;
+    text-align: center;
+    }
+
+    .Crear-CuentaDesktop1 p {
+    color: #215E99;
+    }
+
+    .Crear-CuentaDesktop1 a {
+    color: #EC552F;
+    text-decoration: none;
+    }
+
+    /* boton  crear cuenta  */
+    .Crear-CuentaInputDesktop{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 327px;
+    height: 52px;
+    top: 439px;
+    text-decoration: none;
+    }
+
+    .Boton-Crear{
+    background: #215E99;
+    border-radius: 4px;
+    color: white;
+    width: 327px;
+    border: 0.7px solid#215E99;
+    }
+    /* terminos y condiciones */
+    .Aceptar-Terminos {
+    color: #EC552F;
+    position: absolute;
+    top: 396px;
+    font-size: 14px;
+    display: flex;
+    font-family: "avenir-light";
+    margin-right: 112px;
+    }
+    .checkbox {
+    width: 20px;
+    height: 20px;
+    }
+    /* registro enunciado */
+
+    .Div-Registro{
+    display: flex;
+    justify-content: center;
+    }
+
+    .Registro{
+    display: flex;
+    justify-content: center;
+    }
+
+    .Registro p{
+    font-family: "avenir-heavy";
+    line-height: 32px;
+    color: #EC552F;
+    position: absolute;
+    top: 71px;
+    margin-left: -24px;
+    font-weight: 800;
+    font-size: 24px;
+    }
+
+    .IngresoDatos, .IngresoDatos2, .IngresoDatos3{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+    top: 129px;
+    }
+
+    .IngresoDatos2{
+    top: 219px;
+    }
+
+    .IngresoDatos3{
+    top: 300px;
+    }
+
+    .IngresoDatos, .IngresoDatos2, .IngresoDatos3 p{
+    line-height: 11px;
+    color: #215E99;
+    font-family: "avenir-light";
+    }
+
+    .IngresoDatos3 input {
+    width: 327px;
+    height: 38px;
+    border: 0.7px solid #C7CAD9;
+    box-sizing: border-box;
+    }
+
+    .IngresoDatos input{
+    width: 327px;
+    height: 38px;
+    border: 0.7px solid #C7CAD9;
+    box-sizing: border-box;
+    border-radius: 4px;
 
     }
     .IngresoDatos2 input{
-        width: 327px;
-        height: 38px;
-        border: 0.7px solid #C7CAD9;
-        box-sizing: border-box;
-        border-radius: 4px;
-
-    }
-    
-    .Aceptar-Terminos {
-        display: flex;
-        justify-content: center;
-        font-family: "avenir-heavy";
-        color: #EC552F;
-        position: absolute;
-        height: 24px;
-        top: 519px;
-
+    width: 327px;
+    height: 38px;
+    border: 0.7px solid #C7CAD9;
+    box-sizing: border-box;
+    border-radius: 4px;
     }
 
-    .Div-Registro{
-        display: flex;
-        justify-content: center;
-    }
-    .RegistroExitoso{
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        top: 416px;
-        background-color: #215E99;
-        color: white;
-        font-family: "avenir-heavy";
-        height: 18%;
-        border: 0.7px solid #215E99;
-        border-radius: 4px;
-      
-
-    }
-    .Crear-CuentaInput2{
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        top: 56px;
-        height: 52px;
-        text-decoration: none;
-    }
-    .botonExitoso{
-        background: #EC552F;
-        border-radius: 4px;
-        color: white;
-        border: 0.7px solid #EC552F;
-
-    }
-
-    
-
-}
+ }

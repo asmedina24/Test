@@ -3,11 +3,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesión</title>
+    <title>Cuenta Exitosa</title>
+    <link rel="stylesheet" href="./css/crearCuenta.css">
+
 </head>
 <body>
+    <div class="Div-LogosCrearCuenta" >
+        <a class="atras" href="index.html"><img  src="https://i.imgur.com/xWBDBxV.png" alt="atras"></a>
+        <img class="logo" src="https://i.imgur.com/J5WziKU.png" alt="logo">
 
-    iniciar sesion otra cuenta
+        <div class="Div-Registro">
+            <div class="Registro">
+                <h2>Inicie sesion para utilizar la aplicación</h2>
+            </div>
+        
+            <div class="IngresoDatos">
+                <p>Email/Nombre de usuario</p>
+                <input type="text" placeholder="Ingresa email o nombre de usuario"> 
+             </div> 
+               <div class="IngresoDatos2">
+                <p>Contraseña</p>
+                <input type="text" placeholder="Ingresa Contraseña " >
+               </div>
+             <div class="Olvidaste-Contraseña">
+                 <p> ¿Olvidaste la contraseña?</p> 
+              </div>
+              <a class="Iniciar-Sesion" href="iniciarSesion.html"><button class="Boton-Crear">Iniciar sesión </button></a>
+        
+              <a class="Registrase-OtraCuentaInic"  id="abrirModal" href="#"><button class="Boton-OtraCuenta">Iniciar sesión con otra cuenta</button></a>
+
+              <div class="Crear-Cuenta">
+                <p>¿Eres un nuevo usuario?
+                <a href="crearCuenta.html">Crear una Cuenta</a></p>
+            </div>
+
+            <div class="Indicador">
+                <img  src="https://i.imgur.com/m7lEH9G.png" alt="Indicador">
+            </div>
+        
+ 
+            </div>
+
+            <!-- Modal Ingresar Otras Cuentas -->
+
+<div class="modalOtraCuenta">
+    <div class="modal">
+        <div class="modal_Cerrar">
+            <span>X</span>
+            <span>Selecciona tu cuenta</span>
+        </div>
+        <div class="TipoDeCuentas">
+            <a href=""><img src="https://i.imgur.com/sdBTQMG.png" alt="apple" />Continua con Apple ID</a>
+            <a href=""><img src="https://i.imgur.com/Vqo3wm8.png" alt="facebook" />Continua Facebook</a>
+            <a href=""><img src="https://i.imgur.com/RThGGBi.png" alt="Google" />Continua con Google</a>
+        </div>
+   </div>
+</div>
+        
+       
+            <div class="RegistroExitoso">
+                <p>Felicidades te haz registrado exitosamente</p>
+                   
+            </div>
+
+<script src="./js/app.js"></script>
     
 </body>
 </html>
