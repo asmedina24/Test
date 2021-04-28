@@ -21,9 +21,10 @@
     }
     .logo{
     position: absolute;
-    width: 195.71px;
-    height: 86.6px;
     top: 40px;
+    width: 239.71px;
+    height: 95.6px ;
+    
     }
 
     .Div-LogosCrearCuenta{
@@ -60,8 +61,9 @@
 
     .Indicador{
     position: absolute;
-    top: 95.81%;
-    bottom: 0%;
+    top: 758px        
+
+
     }
 
     .Crear-Cuenta{
@@ -210,23 +212,23 @@
     }
 
     .RegistroExitoso{
-    display: none;
+    /* display: none; */
     justify-content: center;
     background-color: #4CA484;
     color: white;
     font-family: "avenir-heavy";
     border: 0.7px solid #4CA484;
-    border-radius: 17px;
+  
+    border-radius: 22px 22px 0px 0px;
     position: absolute;
     width: 100%;
-    top: 748px;
-    height: 72px;
+    top: 712px;
+    height: 78px;
     }
 
     .RegistroExitoso p {
-    width: 217px;
     display: flex;
-    text-align: -webkit-center;
+    justify-content: center;
     }
 
     .Crear-CuentaInput2{
@@ -304,7 +306,7 @@
     .TipoDeCuentas a {
     text-decoration: none;
     padding: 8px;
-    width: 213px;
+    width: 278px;
     color: #215E99;
     text-align: center;
     margin: 5px;
@@ -314,6 +316,7 @@
     font-family: "avenir-light";
     font-weight: 500;
     }
+
     .IniciarOtraCuenta, .LogoDesktop, .LogoDesktop2, .Div-Contenido, .Crear-CuentaDesktop1, .Crear-CuentaInputDesktop {
     display: none;
     }
@@ -553,5 +556,7 @@
     box-sizing: border-box;
     border-radius: 4px;
     }
+
+
 
  }

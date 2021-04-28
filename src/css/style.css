@@ -23,7 +23,7 @@
     line-height: 28px;
     color: #EC552F;
     position: absolute;
-    top: 509px;
+    top: 490px;
     }
 
     .Bienvenida p {
@@ -43,7 +43,7 @@
 
     .Boton-IniciarSesion {
     position: absolute;
-    top: 595px;
+    top: 574px;
     border-radius: 4px;
     color: #ffff;
     font-family: "avenir-light";
@@ -66,7 +66,7 @@
     position: absolute;
     width: 327px;
     height: 52px;
-    top: 661px;
+    top: 644px;
     background-color: transparent;
     color: #EC552F ;
     border-radius: 4px;
@@ -85,14 +85,14 @@
     position: absolute;
     width: 328.29px;
     height: 212.18px;
-    top: 200.05px;
+    top: 179.05px;
     }
 
     .Crear-Cuenta{
     position: absolute;
     width: 266px;
     height: 20px;
-    top: 735px;
+    top: 712px;
     font-family: "avenir-light";
     font-weight: 900;
     font-size: 14px;
@@ -111,11 +111,11 @@
 
     .Indicador{
     position: absolute;
-    top: calc(100% - 5px/2 + 5.5px);
+    top: 758px;
 
     }
 
-    .Div-LogoDesktop, .LogoDesktop, .LogoDesktop2, .Boton-IniciarSesionDesktop, .Boton-InicDesktop {
+    .Div-LogoDesktop, .LogoDesktop, .LogoDesktop2, .Boton-IniciarSesionDesktop, .Boton-InicDesktop, .RegistroExitoso {
     display: none;
     }
     .Formulario{
@@ -176,7 +176,7 @@
     .TipoDeCuentas a {
     text-decoration: none;
     padding: 8px;
-    width: 213px;
+    width: 278px;
     color: #215E99;
     text-align: center;
     margin: 5px;
@@ -187,10 +187,12 @@
     font-weight: 500;
     }
 
+
+
 }
 
 @media (min-width : 769px) and (max-width: 2150px) {
-    .Indicador, .Bienvenida, .Crear-Cuenta, .Botones-Inicio, .Div-Logo, .Logo, .modalOtraCuenta, .TipoDeCuentas,  .Boton-IniciarOtraCuenta, .Boton-InicDesktop{
+    .Indicador, .Bienvenida, .Crear-Cuenta, .Botones-Inicio, .Div-Logo, .Logo, .modalOtraCuenta, .TipoDeCuentas,  .Boton-IniciarOtraCuenta, .Boton-InicDesktop, .Boton-IniciarSesion{
     display: none;
     }
 
@@ -451,6 +453,24 @@
     height: 18px;
     left: 15px;
     top: 13px
+    }
+    .RegistroExitoso{
+    justify-content: center;
+    background-color: #4CA484;
+    color: white;
+    font-family: "avenir-heavy";
+    border: 0.7px solid #4CA484;
+    position: absolute;
+    width: 100%;
+    height: 37px;
+    font-size: 16px;
+    }
+
+    .RegistroExitoso p {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 6px;
     }
 
 
