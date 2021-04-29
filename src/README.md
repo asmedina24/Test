@@ -10,7 +10,7 @@
 
 Puedes verlo a traves de siguiente Link
 
-![Deploy](https://asmedina24.github.io/Test/src/index.html)
+[link al proyecto](https://asmedina24.github.io/Test/src/index.html)
 
 
 ## 3. Si deseas descargar el proyecto y ver el codigo
