@@ -24,7 +24,6 @@
     top: 40px;
     width: 239.71px;
     height: 95.6px ;
-    
     }
 
     .Div-LogosCrearCuenta{
@@ -62,8 +61,6 @@
     .Indicador{
     position: absolute;
     top: 758px        
-
-
     }
 
     .Crear-Cuenta{
@@ -212,13 +209,11 @@
     }
 
     .RegistroExitoso{
-    /* display: none; */
     justify-content: center;
     background-color: #4CA484;
     color: white;
     font-family: "avenir-heavy";
     border: 0.7px solid #4CA484;
-  
     border-radius: 22px 22px 0px 0px;
     position: absolute;
     width: 100%;
@@ -411,7 +406,6 @@
     background: hsl(240deg 8% 93%);
     border-radius: 114px;
     margin-left: 133px;
-
     }
 
     .Apple img {
@@ -490,7 +484,6 @@
     height: 20px;
     }
     /* registro enunciado */
-
     .Div-Registro{
     display: flex;
     justify-content: center;
@@ -547,8 +540,8 @@
     border: 0.7px solid #C7CAD9;
     box-sizing: border-box;
     border-radius: 4px;
-
     }
+
     .IngresoDatos2 input{
     width: 327px;
     height: 38px;
@@ -556,7 +549,4 @@
     box-sizing: border-box;
     border-radius: 4px;
     }
-
-
-
- }
+}

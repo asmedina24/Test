@@ -15,7 +15,6 @@
     .Div-Bienvenida{
     display: flex;
     justify-content: center;
-
     }
 
     .Bienvenida{
@@ -39,7 +38,6 @@
     margin-top: 36px;
     margin-right: 67px;
     }
-
 
     .Boton-IniciarSesion {
     position: absolute;
@@ -78,7 +76,6 @@
     .Div-Logo{
     display: flex;
     justify-content: center;
-
     }
 
     .Logo{
@@ -112,7 +109,6 @@
     .Indicador{
     position: absolute;
     top: 758px;
-
     }
 
     .Div-LogoDesktop, .LogoDesktop, .LogoDesktop2, .Boton-IniciarSesionDesktop, .Boton-InicDesktop, .RegistroExitoso {
@@ -154,7 +150,7 @@
     display: flex;
     flex: auto;
     margin-top: 0px;
- }
+    }
 
     .TipoDeCuentas{
     display: flex;
@@ -186,8 +182,6 @@
     font-family: "avenir-light";
     font-weight: 500;
     }
-
-
 
 }
 
@@ -376,7 +370,6 @@
     border-radius: 4px
     }
 
-
     .Crear-CuentaDesktop{
     position: absolute;
     height: 20px;
@@ -420,8 +413,8 @@
     background: hsl(240deg 8% 93%);
     border-radius: 114px;
     margin-left: 67px;
-
     }
+
     .Google {
     position: absolute;
     width: 49px;
@@ -454,6 +447,7 @@
     left: 15px;
     top: 13px
     }
+
     .RegistroExitoso{
     justify-content: center;
     background-color: #4CA484;
@@ -472,8 +466,6 @@
     font-size: 16px;
     margin-top: 6px;
     }
-
-
 }
 
 
